@@ -44,7 +44,7 @@ subjects:
 EOF
 
 echo ""
-echo "--> Wait some seconds to start complety..." 
+echo "--> Wait some seconds to start completely..." 
 kubectl wait --namespace kubernetes-dashboard \
   --for=condition=ready pod \
   --selector=k8s-app=kubernetes-dashboard \

@@ -7,6 +7,7 @@ if [ -z "$1" ]; then
 	exit
 fi
 
+rm -f kind-3nodes.yaml
 echo ""
 echo "*******************"
 echo " Creating Cluster "
