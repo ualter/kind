@@ -35,9 +35,10 @@ echo "  - role: worker" >> kind-3nodes.yaml
 kind create cluster --name $1 --config ./kind-3nodes.yaml
 
 echo ""
-echo " --> Now... " 
-echo "     ./install-dashboard.sh" 
+echo " --> Now, operators/extensions... " 
 echo "     ./install-ingress-nginx.sh" 
+echo "     ./install-jaeger-operator.sh" 
+echo "     ./install-dashboard.sh" 
 echo "     ./giveme-token-dashboard.sh" 
 echo ""
 
