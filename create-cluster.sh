@@ -42,6 +42,7 @@ echo "     ./install-dashboard.sh"
 echo "     ./giveme-token-dashboard.sh" 
 echo ""
 
+rm kind-3nodes.yaml
 
 
 
